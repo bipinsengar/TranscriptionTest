@@ -1,0 +1,173 @@
+{
+  "uid" : "163e9234430c3f00",
+  "name" : "Transripted_speech for english154.mp3",
+  "fullName" : "Demo.Transripted_speech for english154.mp3",
+  "historyId" : "74a91d62f570e5c9cd2780b6f68f19ac",
+  "time" : {
+    "start" : 1595209562745,
+    "stop" : 1595209562749,
+    "duration" : 4
+  },
+  "status" : "failed",
+  "statusMessage" : "'79>=80' should be true.",
+  "statusTrace" : "Traceback (most recent call last):\n  None",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "'79>=80' should be true.",
+    "statusTrace" : "Traceback (most recent call last):\n  None",
+    "steps" : [ {
+      "name" : "Verify Transcription",
+      "time" : {
+        "start" : 1595209562745,
+        "stop" : 1595209562748,
+        "duration" : 3
+      },
+      "status" : "failed",
+      "statusMessage" : "'79>=80' should be true.",
+      "statusTrace" : "Traceback (most recent call last):\n  None",
+      "steps" : [ {
+        "name" : "utils.Compare Strings",
+        "time" : {
+          "start" : 1595209562746,
+          "stop" : 1595209562746,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "fedc0c83ceff7035",
+          "name" : "Keyword Log",
+          "source" : "fedc0c83ceff7035.html",
+          "type" : "text/html",
+          "size" : 37
+        } ],
+        "parameters" : [ {
+          "name" : "arg1",
+          "value" : "${actual_text}"
+        }, {
+          "name" : "arg2",
+          "value" : "${transripted_speech}"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "BuiltIn.Log",
+        "time" : {
+          "start" : 1595209562747,
+          "stop" : 1595209562747,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b790da671390f1da",
+          "name" : "Keyword Log",
+          "source" : "b790da671390f1da.html",
+          "type" : "text/html",
+          "size" : 28
+        } ],
+        "parameters" : [ {
+          "name" : "arg1",
+          "value" : "${res}"
+        }, {
+          "name" : "arg2",
+          "value" : "console=True"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "BuiltIn.Should Be True",
+        "time" : {
+          "start" : 1595209562747,
+          "stop" : 1595209562748,
+          "duration" : 1
+        },
+        "status" : "failed",
+        "statusMessage" : "'79>=80' should be true.",
+        "statusTrace" : "Traceback (most recent call last):\n  None",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "50dd4908f98dd4dc",
+          "name" : "Keyword Log",
+          "source" : "50dd4908f98dd4dc.html",
+          "type" : "text/html",
+          "size" : 140
+        } ],
+        "parameters" : [ {
+          "name" : "arg1",
+          "value" : "${res}>=80"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "arg1",
+        "value" : "english154.mp3"
+      }, {
+        "name" : "arg2",
+        "value" : "Please call stuff after to bring these things with her from the store six phones a fresh no pies five, six wives and blue cheese and maybe your stack for her brother Bob we also need a small fasick steak and a big Tory from the kids she can sue please says just try read bags and we'll go beach or Wednesday at the train station."
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "Transripted_speech for english154"
+  }, {
+    "name" : "framework",
+    "value" : "robotframework"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "host",
+    "value" : "Bipins-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "default"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "163e9234430c3f00.json",
+  "parameterValues" : [ ]
+}

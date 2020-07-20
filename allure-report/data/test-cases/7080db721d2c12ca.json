@@ -1,0 +1,173 @@
+{
+  "uid" : "7080db721d2c12ca",
+  "name" : "Transripted_speech for english550.mp3",
+  "fullName" : "Demo.Transripted_speech for english550.mp3",
+  "historyId" : "9e7d11a3e361caa76d57b525b6b34c7f",
+  "time" : {
+    "start" : 1595209562706,
+    "stop" : 1595209562709,
+    "duration" : 3
+  },
+  "status" : "failed",
+  "statusMessage" : "'62>=80' should be true.",
+  "statusTrace" : "Traceback (most recent call last):\n  None",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "'62>=80' should be true.",
+    "statusTrace" : "Traceback (most recent call last):\n  None",
+    "steps" : [ {
+      "name" : "Verify Transcription",
+      "time" : {
+        "start" : 1595209562706,
+        "stop" : 1595209562709,
+        "duration" : 3
+      },
+      "status" : "failed",
+      "statusMessage" : "'62>=80' should be true.",
+      "statusTrace" : "Traceback (most recent call last):\n  None",
+      "steps" : [ {
+        "name" : "utils.Compare Strings",
+        "time" : {
+          "start" : 1595209562706,
+          "stop" : 1595209562707,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "16b0ed52d3a7a25a",
+          "name" : "Keyword Log",
+          "source" : "16b0ed52d3a7a25a.html",
+          "type" : "text/html",
+          "size" : 37
+        } ],
+        "parameters" : [ {
+          "name" : "arg1",
+          "value" : "${actual_text}"
+        }, {
+          "name" : "arg2",
+          "value" : "${transripted_speech}"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "BuiltIn.Log",
+        "time" : {
+          "start" : 1595209562707,
+          "stop" : 1595209562708,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "408a395b3d8b17ee",
+          "name" : "Keyword Log",
+          "source" : "408a395b3d8b17ee.html",
+          "type" : "text/html",
+          "size" : 28
+        } ],
+        "parameters" : [ {
+          "name" : "arg1",
+          "value" : "${res}"
+        }, {
+          "name" : "arg2",
+          "value" : "console=True"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "BuiltIn.Should Be True",
+        "time" : {
+          "start" : 1595209562708,
+          "stop" : 1595209562709,
+          "duration" : 1
+        },
+        "status" : "failed",
+        "statusMessage" : "'62>=80' should be true.",
+        "statusTrace" : "Traceback (most recent call last):\n  None",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "8c4a7b9c67e944ba",
+          "name" : "Keyword Log",
+          "source" : "8c4a7b9c67e944ba.html",
+          "type" : "text/html",
+          "size" : 140
+        } ],
+        "parameters" : [ {
+          "name" : "arg1",
+          "value" : "${res}>=80"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "arg1",
+        "value" : "english550.mp3"
+      }, {
+        "name" : "arg2",
+        "value" : "Please call so there's good reasons do six stories of slaves of blue jeans and maybe for her bro we also made a small.They do a role for him she can do then, to re, re, we will go. And maybe that's."
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "Transripted_speech for english550"
+  }, {
+    "name" : "framework",
+    "value" : "robotframework"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "host",
+    "value" : "Bipins-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "default"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7080db721d2c12ca.json",
+  "parameterValues" : [ ]
+}

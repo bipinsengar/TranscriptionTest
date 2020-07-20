@@ -1,0 +1,173 @@
+{
+  "uid" : "318c98c8b24103e2",
+  "name" : "Transripted_speech for english250.mp3",
+  "fullName" : "Demo.Transripted_speech for english250.mp3",
+  "historyId" : "0723b56ee936a80a3e3f5db46362c15d",
+  "time" : {
+    "start" : 1595209563597,
+    "stop" : 1595209563600,
+    "duration" : 3
+  },
+  "status" : "failed",
+  "statusMessage" : "'72>=80' should be true.",
+  "statusTrace" : "Traceback (most recent call last):\n  None",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "'72>=80' should be true.",
+    "statusTrace" : "Traceback (most recent call last):\n  None",
+    "steps" : [ {
+      "name" : "Verify Transcription",
+      "time" : {
+        "start" : 1595209563597,
+        "stop" : 1595209563600,
+        "duration" : 3
+      },
+      "status" : "failed",
+      "statusMessage" : "'72>=80' should be true.",
+      "statusTrace" : "Traceback (most recent call last):\n  None",
+      "steps" : [ {
+        "name" : "utils.Compare Strings",
+        "time" : {
+          "start" : 1595209563597,
+          "stop" : 1595209563598,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b21acd84bb65819f",
+          "name" : "Keyword Log",
+          "source" : "b21acd84bb65819f.html",
+          "type" : "text/html",
+          "size" : 37
+        } ],
+        "parameters" : [ {
+          "name" : "arg1",
+          "value" : "${actual_text}"
+        }, {
+          "name" : "arg2",
+          "value" : "${transripted_speech}"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "BuiltIn.Log",
+        "time" : {
+          "start" : 1595209563598,
+          "stop" : 1595209563599,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9fe8c3807595c0b2",
+          "name" : "Keyword Log",
+          "source" : "9fe8c3807595c0b2.html",
+          "type" : "text/html",
+          "size" : 28
+        } ],
+        "parameters" : [ {
+          "name" : "arg1",
+          "value" : "${res}"
+        }, {
+          "name" : "arg2",
+          "value" : "console=True"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "BuiltIn.Should Be True",
+        "time" : {
+          "start" : 1595209563599,
+          "stop" : 1595209563600,
+          "duration" : 1
+        },
+        "status" : "failed",
+        "statusMessage" : "'72>=80' should be true.",
+        "statusTrace" : "Traceback (most recent call last):\n  None",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f32debbf0089b3d6",
+          "name" : "Keyword Log",
+          "source" : "f32debbf0089b3d6.html",
+          "type" : "text/html",
+          "size" : 140
+        } ],
+        "parameters" : [ {
+          "name" : "arg1",
+          "value" : "${res}>=80"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "arg1",
+        "value" : "english250.mp3"
+      }, {
+        "name" : "arg2",
+        "value" : "Stella of good spring. These things from the store six boon to flush no piece five fix love, simply Jay's. Maybe it's not live of above. We also need a small Pacific snake on the big play fog for the kids. She can scrape these things if we went bugs we will go Mesa Wednesday at the train station."
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "Transripted_speech for english250"
+  }, {
+    "name" : "framework",
+    "value" : "robotframework"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "host",
+    "value" : "Bipins-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "default"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "318c98c8b24103e2.json",
+  "parameterValues" : [ ]
+}

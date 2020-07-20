@@ -1,0 +1,155 @@
+{
+  "uid" : "d4bf0a3581a0f4eb",
+  "name" : "Transripted_speech for english309.mp3",
+  "fullName" : "Demo.Transripted_speech for english309.mp3",
+  "historyId" : "84cb702900ca0b51585fd78a00b76dff",
+  "time" : {
+    "start" : 1595209563483,
+    "stop" : 1595209563486,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Verify Transcription",
+      "time" : {
+        "start" : 1595209563483,
+        "stop" : 1595209563486,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "utils.Compare Strings",
+        "time" : {
+          "start" : 1595209563483,
+          "stop" : 1595209563484,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "953b11bfb393b611",
+          "name" : "Keyword Log",
+          "source" : "953b11bfb393b611.html",
+          "type" : "text/html",
+          "size" : 37
+        } ],
+        "parameters" : [ {
+          "name" : "arg1",
+          "value" : "${actual_text}"
+        }, {
+          "name" : "arg2",
+          "value" : "${transripted_speech}"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "BuiltIn.Log",
+        "time" : {
+          "start" : 1595209563484,
+          "stop" : 1595209563485,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "46752abc80ed43f",
+          "name" : "Keyword Log",
+          "source" : "46752abc80ed43f.html",
+          "type" : "text/html",
+          "size" : 28
+        } ],
+        "parameters" : [ {
+          "name" : "arg1",
+          "value" : "${res}"
+        }, {
+          "name" : "arg2",
+          "value" : "console=True"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "BuiltIn.Should Be True",
+        "time" : {
+          "start" : 1595209563485,
+          "stop" : 1595209563485,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "arg1",
+          "value" : "${res}>=80"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "arg1",
+        "value" : "english309.mp3"
+      }, {
+        "name" : "arg2",
+        "value" : "Please call Stella ask her to bring these things with her from the store six first no pace five six leads of blue cheese and might be a snack for her brother bold. We also need a small fix Nike and big toys for all for the kids, she can scoop these things into three raids bags, and we will go and make to Unwin. Site at the train station."
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "Transripted_speech for english309"
+  }, {
+    "name" : "framework",
+    "value" : "robotframework"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "host",
+    "value" : "Bipins-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "default"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d4bf0a3581a0f4eb.json",
+  "parameterValues" : [ ]
+}

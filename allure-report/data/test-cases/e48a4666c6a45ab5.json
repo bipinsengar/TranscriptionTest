@@ -1,0 +1,173 @@
+{
+  "uid" : "e48a4666c6a45ab5",
+  "name" : "Transripted_speech for english552.mp3",
+  "fullName" : "Demo.Transripted_speech for english552.mp3",
+  "historyId" : "ba48afe67e9cdbc6033263dd16008c7b",
+  "time" : {
+    "start" : 1595209562516,
+    "stop" : 1595209562522,
+    "duration" : 6
+  },
+  "status" : "failed",
+  "statusMessage" : "'76>=80' should be true.",
+  "statusTrace" : "Traceback (most recent call last):\n  None",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "'76>=80' should be true.",
+    "statusTrace" : "Traceback (most recent call last):\n  None",
+    "steps" : [ {
+      "name" : "Verify Transcription",
+      "time" : {
+        "start" : 1595209562516,
+        "stop" : 1595209562521,
+        "duration" : 5
+      },
+      "status" : "failed",
+      "statusMessage" : "'76>=80' should be true.",
+      "statusTrace" : "Traceback (most recent call last):\n  None",
+      "steps" : [ {
+        "name" : "utils.Compare Strings",
+        "time" : {
+          "start" : 1595209562517,
+          "stop" : 1595209562518,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "cfa18d69f6050679",
+          "name" : "Keyword Log",
+          "source" : "cfa18d69f6050679.html",
+          "type" : "text/html",
+          "size" : 37
+        } ],
+        "parameters" : [ {
+          "name" : "arg1",
+          "value" : "${actual_text}"
+        }, {
+          "name" : "arg2",
+          "value" : "${transripted_speech}"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "BuiltIn.Log",
+        "time" : {
+          "start" : 1595209562519,
+          "stop" : 1595209562520,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9e0401a333151f13",
+          "name" : "Keyword Log",
+          "source" : "9e0401a333151f13.html",
+          "type" : "text/html",
+          "size" : 28
+        } ],
+        "parameters" : [ {
+          "name" : "arg1",
+          "value" : "${res}"
+        }, {
+          "name" : "arg2",
+          "value" : "console=True"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "BuiltIn.Should Be True",
+        "time" : {
+          "start" : 1595209562520,
+          "stop" : 1595209562521,
+          "duration" : 1
+        },
+        "status" : "failed",
+        "statusMessage" : "'76>=80' should be true.",
+        "statusTrace" : "Traceback (most recent call last):\n  None",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d7b59b05791141e",
+          "name" : "Keyword Log",
+          "source" : "d7b59b05791141e.html",
+          "type" : "text/html",
+          "size" : 140
+        } ],
+        "parameters" : [ {
+          "name" : "arg1",
+          "value" : "${res}>=80"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "arg1",
+        "value" : "english552.mp3"
+      }, {
+        "name" : "arg2",
+        "value" : "Please call Stella asked you to bring these things aside from the store six boon to fresh snow pies five six labs a Bluetooth and maybe a snack for her brother Bob they'll send you a small caustic snake and a big to a frog for the kids. She can make things industry that back and we'll go me here when bear the train station."
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "Transripted_speech for english552"
+  }, {
+    "name" : "framework",
+    "value" : "robotframework"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "host",
+    "value" : "Bipins-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "default"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e48a4666c6a45ab5.json",
+  "parameterValues" : [ ]
+}
