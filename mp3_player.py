@@ -15,13 +15,13 @@ mp3_played_ordered_list = []
 for files in os.listdir(input_folder):
     # Inside First Folder. For example Under sample1
     mp3s_parent_path = input_folder + files
-    for mp3s in os.listdir(mp3s_parent_path):
-        #mp3s_abs_path = mp3s_parent_path + '/' + mp3s
-        #print (f"{cnt} playing {mp3s} . . . ")
-        #sound = AudioSegment.from_mp3(mp3s_abs_path)
+    for mp3s in os.listdir(mp3s_parent_path)[:300]:
+        mp3s_abs_path = mp3s_parent_path + '/' + mp3s
+        print (f"{cnt} playing {mp3s} . . . ")
+        sound = AudioSegment.from_mp3(mp3s_abs_path)
         mp3_played_ordered_list.append(mp3s)
-        #play(sound)
-        #time.sleep(25)
+        play(sound)
+        time.sleep(25)
         cnt = cnt+1
 
 # dictionary of lists  

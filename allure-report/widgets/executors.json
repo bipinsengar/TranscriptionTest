@@ -2,9 +2,9 @@
   "name" : "Jenkins",
   "type" : "jenkins",
   "url" : "http://localhost:8086/",
-  "buildOrder" : 1,
-  "buildName" : "Transcription #1",
-  "buildUrl" : "http://localhost:8086/job/st/1/",
+  "buildOrder" : 3,
+  "buildName" : "Transcription #3",
+  "buildUrl" : "http://localhost:8086/job/st/3/",
   "reportName" : "AllureReport",
-  "reportUrl" : "http://localhost:8086/job/st/1/allure"
+  "reportUrl" : "http://localhost:8086/job/st/3/allure"
 } ]
